@@ -30,7 +30,6 @@
 .contact-bar-Item
 {
     padding: 0pt;
-
 }
 
 .navbar
@@ -94,7 +93,7 @@
   top: 0;
   left: 0;
   right: 0;
-  margin-top:200pt;
+  margin-top:150pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,7 +126,7 @@
 {
   margin-top: 20px;
   font-family: 'Lato', sans-serif;
-  font-size: calc(6pt + 1vw);
+  font-size: 12pt;
   box-shadow: 3px 5px #B2B2B2; 
 }
 

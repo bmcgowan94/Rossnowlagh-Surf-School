@@ -84,7 +84,7 @@
   width: 100%;
   height: 100vh;
   object-fit: fill;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 #overlay
@@ -133,11 +133,56 @@
 
 /* ----------------------------------------------------------------------------------------------*/
 
-/* ABOUT SECTION */
+/* CIRCULAR LINKS SECTION */
 
-#AboutSection
+#Circle-Links-Section
 {
-   background-color: #A9CEF4;
+  background-color: #6CAFD9;
+}
+
+.img-center
+{
+  margin:0 auto;
+}
+
+.img-circular
+{
+  width: calc(150pt + 1vw);
+  height: calc(150pt + 1vw);
+  background-size: cover;
+  display: block;
+  border-radius: calc(200pt + 1vw);
+  -webkit-border-radius: calc(150pt + 1vw);
+  -moz-border-radius: calc(150pt + 1vw);
+  margin-top: 30px;
+  border: 3px solid white;
+}
+
+#img-surf-lesson-circle
+{
+  background-image: url('/img/surf-lesson2-circle.jpg');
+}
+
+#img-kids-camp-circle
+{
+  background-image: url('/img/kids-camp-circle.jpg');
+}
+
+#img-sup-circle
+{
+  background-image: url('/img/SUP-circle.jpg');
+}
+
+#img-rentals-circle
+{
+  background-image: url('/img/rentals-circle.jpg');
+}
+
+.circular-text
+{
+  margin-top: 22pt;
+  text-align: center;
+  font-size: 16pt;
 }
 
 #AboutTitle

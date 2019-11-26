@@ -22,9 +22,9 @@
         
     </head>
     
-    <body style="width: 100%;">
+    <body>
         
-        <!-- CONTACT BAR - Above the Navbar ------------->
+        <!-- CONTACT BAR - Above the Navbar -------------------------->
         <div class="fixed-top">
             <div class="contact-bar-width">
                 <div class="container">
@@ -40,7 +40,7 @@
                     </div>
                 </div> 
             </div> 
-            <!-- NAVBAR ------------------>
+            <!-- NAVBAR -------------------------------------------->
             <nav class="navbar navbar-expand-lg">
                 <div class="container">  
                   <a class="navbar-brand active" href="#"><img src="img/NavBar-Logo.png" id="navLogo"></a>
@@ -86,13 +86,13 @@
         </div>
 
 
-        <!-- Video and Welcome Text ------------------------> 
+        <!-- Video and Welcome Text ------------------------------------------> 
         <section>
             <div id="videoDiv">
                 <video autoplay muted loop id="myVideo">
                   <source src="vid/cover_vid_1.mp4" type="video/mp4">
                 </video>
-                <!-- Overlay text - Logo, Title, and Welcome text -->
+                <!-- Overlay text - Logo, Title, and Welcome text ----->
                 <div id="overlay">
                   <img src="./img/AdventureOneLogo.png" id="logoHomepage">
                   <h1 id="MainTitle">Adventure One Surf School</h1>
@@ -102,24 +102,96 @@
             </div>  
         </section>
 
-        <!-- Circular Links to important pages - Section ---------------------->
+        <!-- Circular Links to important pages - Section ------------------------>
         <section id="Circle-Links-Section"> 
             <div class="container">
               <div class="row" style="padding-bottom: 30px;">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="img-center img-circular" id="img-surf-lesson-circle"><h1 class="circular-text">Surf Lessons</h1></div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="img-center img-circular" id="img-kids-camp-circle"><h1 class="circular-text">Kids Surf Camps</h1></div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="img-center img-circular" id="img-sup-circle"><h1 class="circular-text">SUP</h1></div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="img-center img-circular" id="img-rentals-circle"><h1 class="circular-text">Rentals</h1></div>
                 </div>
               </div>
             </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="About-Section">
+          <div class="container" id="AboutContainer">
+              <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12" id="about-title">
+                    <h1>ABOUT US</h1>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                      <img src="/img/surfboard-hr.png" id="about-hr">
+                  </div>
+                  <div class="col-lg-5" style="padding: 0px 30px 0px 30px; text-align: center; ">
+                    <p class="about-para">Adventure One opened its doors in March 2004. Originally located in Letterkenny, we were North Donegal’s only surf shop! In May 2006 we opened the 1st ISA Approved Surf School on Donegal’s North coast and haven’t looked back since. Being ISA approved means our instructors are qualified ISA level 2 coaches as well as RLSS beach lifeguards, and we are fully insured.</p>
+                    <h2 id="about-h2">What do we provide?</h2>
+                    <p class="about-para">We provide surf lessons and coaching for surfers of all abilities from beginner to advanced surfers from age 8 upwards. Kids surfing camps are also available. If it's not your first time on a surf board, join us on our improver/intermediate surfers package. We are open all year round!</p>
+                    <p class="about-para">We look forward to teaching you in the crystal clear waters of North Donegal!</p>
+                    <button type="button" class="btn btn-primary" id="SeePackages-Btn">SEE PACKAGES</button>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="row" style="margin-right: 5px; margin-left: 5px;">
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding: 0;"><img src="/img/About-Image1.jpg" id="about-img"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding: 0;"><img src="/img/About-Image2.jpg" id="about-img"></div>
+                    </div>   
+                    <div class="row" style="margin-right: 5px; margin-left: 5px; margin-bottom: 10px;">
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding: 0;"><img src="/img/About-Image3.jpg" id="about-img"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="padding: 0;"><img src="/img/About-Image4.jpg" id="about-img"></div>
+                    </div>  
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="Contact-Section">
+          <div class="container" id="ContactContainer">
+              <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12" id="contact-title">
+                      <h1>CONTACT US</h1>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                      <img src="/img/surfboard-hr.png" id="about-hr">
+                  </div>
+              </div>
+              <div class="row">
+                <p class="contact-para" id="contact-message">Simply fill out the form below and we will get back to you as soon as possible. Alternatively, you can send us an email at <b>anna@adventureone.net</b>.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="container-contact">
+                        <form action="action_page.php">
+                      
+                          <label for="name" class="contact-heading">Your Name</label>
+                          <input type="text" id="name" name="name" placeholder="Your name...">
+                      
+                          <label for="email" class="contact-heading">Your Email</label>
+                          <input type="text" id="email" name="email" placeholder="Your  email...">
+                      
+                          <label for="message" class="contact-heading">Your Message</label>
+                          <textarea id="subject" name="subject" placeholder="Write something..." style="height:100px"></textarea>
+                      
+                          <button type="submit" value="Submit" class="btn btn-primary block" id="SendMessage-Btn">SEND MESSAGE</button>
+
+                        </form>
+                    </div>
+                </div> 
+                <div class="col-lg-4 col-md-4">
+                  <p id="contact-message">Also, be sure to check us out on social media...</p>
+                   <i class="fab fa-facebook-square"></i>
+                </div>   
+              </div>
+          </div>
         </section>
 
 
@@ -131,17 +203,7 @@
 
         <!-- Inline scripts -->
         <script type="text/javascript">
-            
-            /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-            function myFunction() {
-              var x = document.getElementById("myTopnav");
-              if (x.className === "topnav") {
-                x.className += " responsive";
-              } else {
-                x.className = "topnav";
-              }
-            }
-
+          
         </script>
     </body>
 </html>

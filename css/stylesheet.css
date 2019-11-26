@@ -1,3 +1,9 @@
+body 
+{
+  width: 100%;
+  background-color: #E3EFFA;
+}
+
 /* -------------------- NAVBAR STYLE -----------------------*/
 .contact-bar-width
 {
@@ -34,7 +40,8 @@
 
 .navbar
 {
-    background-color: #6CAFD9;
+    background-image: linear-gradient(to right, #6CAFD9, #70C1B3);
+    /* background-color: #6CAFD9; */
     border-bottom: 3px solid white;
     color: white;
     padding: 0px;
@@ -93,7 +100,7 @@
   top: 0;
   left: 0;
   right: 0;
-  margin-top:150pt;
+  margin-top:200pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +117,7 @@
 {
   font-family: 'Original Surfer', cursive;
   color: #034C8C;
-  font-size: calc(10pt + 1vw);
+  font-size: 24pt;
   text-align: center;
 }
 
@@ -118,8 +125,9 @@
 {
   font-family: 'Original Surfer', cursive;
   color: white;
-  font-size: calc(8pt + 1vw);
+  font-size: 18pt;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 #HomepageBookLesson-Btn
@@ -137,7 +145,8 @@
 
 #Circle-Links-Section
 {
-  background-color: #6CAFD9;
+  background:#6CAFD9;
+  border-bottom: 5px solid white;
 }
 
 .img-center
@@ -183,29 +192,157 @@
   margin-top: 22pt;
   text-align: center;
   font-size: 16pt;
+  font-family: 'Lato', sans-serif;
+  color: #034C8C;
+  text-shadow: 1px 1px white;
 }
 
-#AboutTitle
+/* ----------------------------------------------------------------------------------------------*/
+/* ABOUT SECTION */
+
+#AboutContainer
 {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font-family: 'Original Surfer', cursive;
-    font-size: 3vw;
+  background-image: linear-gradient(to left, #6CAFD9, #70C1B3);
+  margin-top: 50px;
 }
 
-#surf-hr
+#about-title
 {
-    width:30vw;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;    
+  padding-bottom: 5px;
+  font-family: 'Original Surfer', cursive;
+  color: #034C8C;
+  font-size: 18pt;
+}
+
+#about-title h1
+{
+  font-family: 'Original Surfer', cursive;
+  color: #034C8C;
+  font-size: 18pt;
+}
+
+#about-hr
+{
+  width: 150pt;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
 }
 
 .about-para
 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.1em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#about-h2
+{
+  font-family: 'Lato', sans-serif;
+  color: #2173A6;
+  text-align: center;
+  font-size: 16pt;
+  padding-top: 20px;
+}
+
+#about-img
+{
+  width: 100%;
+}
+
+#SeePackages-Btn
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+  box-shadow: 3px 5px white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------*/
+/* CONTACT SECTION */
+
+#ContactContainer
+{
+  background-image: linear-gradient(to right, #6CAFD9, #70C1B3);
+  margin-top: 50px;
+}
+
+#contact-title
+{
+  text-align: center;
+  padding-top: 20px;    
+  padding-bottom: 5px;
+}
+
+#contact-title h1
+{
+  font-family: 'Original Surfer', cursive;
+  color: #034C8C;
+  font-size: 18pt; 
+}
+
+.contact-para
+{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-heading
+{
+  padding-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 16pt;
+}
+
+#contact-message
+{
+  color: white;
+  font-size: 14pt;
+  padding: 10px 10px 25px 10px;
+}
+
+.container-contact
+{
+  background: url(/img/aerial-stock-1.jpg);
+  margin-bottom: 25px;
+}
+
+#SendMessage-Btn
+{
+  display: block;
+  width: 80%;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  box-shadow: 3px 5px white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Contact Form Style */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.container-contact 
+{
+  border-radius: 5px;
+  padding: 20px;
 }

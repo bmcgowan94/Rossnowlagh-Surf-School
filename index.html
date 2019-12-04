@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
+        <!-- ABOUT SECTION -------------------------------->
         <section id="About-Section">
           <div class="container" id="AboutContainer">
               <div class="row">
@@ -153,7 +153,7 @@
           </div>
         </section>
 
-        <!-- CONTACT SECTION -->
+        <!-- CONTACT SECTION ---------------------------------->
         <section id="Contact-Section">
           <div class="container" id="ContactContainer">
               <div class="row">
@@ -164,34 +164,60 @@
                       <img src="/img/surfboard-hr.png" id="about-hr">
                   </div>
               </div>
-              <div class="row">
-                <p class="contact-para" id="contact-message">Simply fill out the form below and we will get back to you as soon as possible. Alternatively, you can send us an email at <b>anna@adventureone.net</b>.</p>
-              </div>
-              <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <div class="container-contact">
-                        <form action="action_page.php">
-                      
-                          <label for="name" class="contact-heading">Your Name</label>
-                          <input type="text" id="name" name="name" placeholder="Your name...">
-                      
-                          <label for="email" class="contact-heading">Your Email</label>
-                          <input type="text" id="email" name="email" placeholder="Your  email...">
-                      
-                          <label for="message" class="contact-heading">Your Message</label>
-                          <textarea id="subject" name="subject" placeholder="Write something..." style="height:100px"></textarea>
-                      
-                          <button type="submit" value="Submit" class="btn btn-primary block" id="SendMessage-Btn">SEND MESSAGE</button>
 
-                        </form>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="row">
+                    <p class="contact-para">Leave your name, email and whatever questions you have here and well be sure to get back to you as soon as possible, Thanks!</p>
+                  </div>
+                  <div class="row">
+                    <form>
+                      <input type="text" name="name" id="InputName" placeholder="Full Name" required>
+                      <input type="text" name="email" id="InputEmail" placeholder="Email" required>
+                      <textarea name="message" rows="6" cols="30" id="InputMessage" placeholder="Type your message here..."></textarea>
+                      <div style="text-align: center"><button type="button" class="btn btn-primary" id="SubmitMessage">SEND MESSAGE</button></div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="icon-div">
+                    <img style="vertical-align:middle" src="/img/icon-phone.png" class="contactIcon">
+                    <span class="iconText">+353 (0)97 628 5565</span>
+                  </div>
+                  <div class="icon-div">
+                    <img style="vertical-align:middle" src="/img/icon-email.png" class="contactIcon">
+                    <span class="iconText">Anna@adventureone.net</span>
+                  </div>
+                  <div class="icon-div">
+                    <img style="vertical-align:middle" src="/img/icon-map.png" class="contactIcon">
+                    <span class="iconText">Click here for directions...</span>
+                  </div>
+                  <hr id="contact-hr">
+                    
+                  <div class="row">
+                    <p class="contact-para">Connect with us on Social Media also...</p>
+                  </div>
+                  <div class="row flex-container" style="margin-bottom: 40px;">
+                    <div>
+                      <img src="/img/icon-facebook.png" class="socialIcon">
                     </div>
-                </div> 
-                <div class="col-lg-4 col-md-4">
-                  <p id="contact-message">Also, be sure to check us out on social media...</p>
-                   <i class="fab fa-facebook-square"></i>
-                </div>   
+                    <div>
+                      <img src="/img/icon-instagram.png" class="socialIcon">
+                    </div>
+                    <div>
+                      <img src="/img/icon-twitter.png" class="socialIcon">
+                    </div>
+                  </div>
+                </div>
               </div>
+              
           </div>
+        </section>
+
+
+        <!-- CONTACT SECTION ---------------------------------->
+        <section>
+          
         </section>
 
 

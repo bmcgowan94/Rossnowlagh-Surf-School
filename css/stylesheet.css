@@ -266,6 +266,11 @@ body
 /* ----------------------------------------------------------------------------------------------*/
 /* CONTACT SECTION */
 
+#Contact-Section
+{
+  padding-bottom: 100px;
+}
+
 #ContactContainer
 {
   background-image: linear-gradient(to right, #6CAFD9, #70C1B3);
@@ -290,8 +295,11 @@ body
 {
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 10px 15px 0px 15px;
+  padding-bottom: 15px;
   font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  color: white;
 }
 
 .contact-heading
@@ -309,11 +317,6 @@ body
   padding: 10px 10px 25px 10px;
 }
 
-.container-contact
-{
-  background: url(/img/aerial-stock-1.jpg);
-  margin-bottom: 25px;
-}
 
 #SendMessage-Btn
 {
@@ -327,10 +330,8 @@ body
   margin-bottom: 30px;
 }
 
-/* Contact Form Style */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -346,3 +347,76 @@ input[type=text], select, textarea {
   border-radius: 5px;
   padding: 20px;
 }
+
+#InputName
+{
+  width: 50%;
+  margin-left: 25px;
+}
+
+#InputEmail
+{
+  width: 50%;
+  margin-left: 25px;
+}
+
+#InputMessage
+{
+  width: 90%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+#SubmitMessage
+{
+  align-items: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 10pt;
+  box-shadow: 3px 5px white;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.contactIcon
+{
+  height: 80px;
+  padding-left: 25px;
+}
+
+.iconText
+{
+  padding-left: 10px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 12pt;
+}
+
+.icon-div
+{
+  padding-top: 20px;
+}
+
+#contact-hr
+{
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-top: 1px solid black;
+}
+
+.socialIcon
+{
+  height: 80px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------------------------------------------------------------------------------------------*/
+/* FOOTER */
+

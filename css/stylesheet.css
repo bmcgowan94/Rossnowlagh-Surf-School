@@ -229,7 +229,7 @@ body
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .about-para
@@ -395,6 +395,7 @@ input[type=text], select, textarea {
 .icon-div
 {
   padding-top: 20px;
+  margin-left: 20px;
 }
 
 #contact-hr
@@ -420,3 +421,32 @@ input[type=text], select, textarea {
 /* ----------------------------------------------------------------------------------------------*/
 /* FOOTER */
 
+#Footer-Section
+{
+  background-color: #6CAFD9;
+  border-top: 3px solid white;
+}
+
+#footerContainer
+{
+  
+}
+
+.footer-text
+{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 8pt;
+}
+
+.footer-top-item
+{
+  padding-top: 40px;
+}
+
+#footer-logo
+{
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

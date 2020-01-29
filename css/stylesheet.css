@@ -1,4 +1,4 @@
-body 
+body
 {
   width: 100%;
   background-color: #E3EFFA;
@@ -7,8 +7,8 @@ body
 /* -------------------- NAVBAR STYLE -----------------------*/
 .contact-bar-width
 {
-  width: 100%; 
-  background-color: #9D9D9D; 
+  width: 100%;
+  background-color: #9D9D9D;
   border-bottom: 1pt solid white;
 }
 
@@ -20,7 +20,7 @@ body
 
 .contact-bar
 {
-    margin-bottom: 0; 
+    margin-bottom: 0;
     text-align: right;
     font-family: 'Lato', sans-serif;
     font-size: 8pt;
@@ -40,7 +40,7 @@ body
 
 .navbar
 {
-    background-image: linear-gradient(to right, #6CAFD9, #70C1B3);
+    background-color: #6CAFD9;
     /* background-color: #6CAFD9; */
     border-bottom: 3px solid white;
     color: white;
@@ -67,7 +67,7 @@ body
 }
 
 
-/* Add an active class to highlight the current page 
+/* Add an active class to highlight the current page
 .topnav a.active {
   background-color: #585481;
   color: white;
@@ -100,7 +100,7 @@ body
   top: 0;
   left: 0;
   right: 0;
-  margin-top:200pt;
+  margin-top:130pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,7 +109,7 @@ body
 
 #logoHomepage
 {
-  height: calc(150pt + 2vw);
+  height: 200px;
   padding-bottom: 20pt;
 }
 
@@ -117,8 +117,9 @@ body
 {
   font-family: 'Original Surfer', cursive;
   color: #034C8C;
-  font-size: 24pt;
+  font-size: 22pt;
   text-align: center;
+  text-shadow: 1px 1px white;
 }
 
 #welcomeText
@@ -128,14 +129,14 @@ body
   font-size: 18pt;
   text-align: center;
   margin-bottom: 25px;
+  padding-top: 20px;
 }
 
 #HomepageBookLesson-Btn
 {
-  margin-top: 20px;
   font-family: 'Lato', sans-serif;
   font-size: 12pt;
-  box-shadow: 3px 5px #B2B2B2; 
+  box-shadow: 3px 5px white;
 }
 
 
@@ -145,7 +146,7 @@ body
 
 #Circle-Links-Section
 {
-  background:#6CAFD9;
+  background-image: linear-gradient(to left, #70C1B3, #6CAFD9);
   border-bottom: 5px solid white;
 }
 
@@ -209,7 +210,7 @@ body
 #about-title
 {
   text-align: center;
-  padding-top: 20px;    
+  padding-top: 20px;
   padding-bottom: 5px;
   font-family: 'Original Surfer', cursive;
   color: #034C8C;
@@ -229,31 +230,39 @@ body
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+#about-subheading
+{
+  font-family: 'Original Surfer', cursive;
+  color: #034C8C;
+  text-align: center;
+  font-size: 16pt;
+  padding-bottom: 5px;
 }
 
 .about-para
 {
   font-family: 'Lato', sans-serif;
   color: white;
-  text-align: center;
+  text-align: justify;
+  margin-bottom: 0px;
 }
 
-#about-h2
+.about-provide-para
 {
-  font-family: 'Lato', sans-serif;
-  color: #2173A6;
-  text-align: center;
-  font-size: 16pt;
-  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #about-img
 {
-  width: 100%;
+  width: 80%;
+  height: auto;
 }
 
-#SeePackages-Btn
+.about-button
 {
   font-family: 'Lato', sans-serif;
   font-size: 10pt;
@@ -261,6 +270,30 @@ body
   margin-top: 10px;
   margin-bottom: 30px;
   align-items: center;
+}
+
+.review-icon
+{
+  height: 40pt;
+  width: auto;
+}
+
+#about-customer-reviews
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white; 
+}
+
+.about-review-td
+{
+ padding-right: 15px;
+}
+
+#about-packages-link
+{
+  display: block;
+  font-size: 1.1em;
 }
 
 /* ----------------------------------------------------------------------------------------------*/
@@ -275,12 +308,13 @@ body
 {
   background-image: linear-gradient(to right, #6CAFD9, #70C1B3);
   margin-top: 50px;
+  text-align: center;
 }
 
 #contact-title
 {
   text-align: center;
-  padding-top: 20px;    
+  padding-top: 20px;
   padding-bottom: 5px;
 }
 
@@ -288,18 +322,35 @@ body
 {
   font-family: 'Original Surfer', cursive;
   color: #034C8C;
-  font-size: 18pt; 
+  font-size: 18pt;
 }
 
 .contact-para
 {
   margin: 0 auto;
   text-align: center;
-  padding: 10px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
   padding-bottom: 15px;
   font-family: 'Lato', sans-serif;
   font-size: 14pt;
   color: white;
+}
+
+.contact-para-icon
+{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  padding-bottom: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+
+@media(min-width: 550px){
+  br{
+     display:none;
+  }
 }
 
 .contact-heading
@@ -310,11 +361,13 @@ body
   font-size: 16pt;
 }
 
-#contact-message
+#contact-bottom-message
 {
   color: white;
   font-size: 14pt;
   padding: 10px 10px 25px 10px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -332,7 +385,7 @@ body
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -342,7 +395,7 @@ input[type=text], select, textarea {
 }
 
 /* Add a background color and some padding around the form */
-.container-contact 
+.container-contact
 {
   border-radius: 5px;
   padding: 20px;
@@ -350,13 +403,11 @@ input[type=text], select, textarea {
 
 #InputName
 {
-  width: 50%;
   margin-left: 25px;
 }
 
 #InputEmail
 {
-  width: 50%;
   margin-left: 25px;
 }
 
@@ -380,7 +431,7 @@ input[type=text], select, textarea {
 
 .contactIcon
 {
-  height: 80px;
+  height: 60px;
   padding-left: 25px;
 }
 
@@ -408,7 +459,7 @@ input[type=text], select, textarea {
 
 .socialIcon
 {
-  height: 80px;
+  height: 60px;
   padding-top: 15px;
   padding-right: 30px;
 }
@@ -427,16 +478,11 @@ input[type=text], select, textarea {
   border-top: 3px solid white;
 }
 
-#footerContainer
-{
-  
-}
-
 .footer-text
 {
   font-family: 'Lato', sans-serif;
   color: white;
-  font-size: 8pt;
+  font-size: 10pt;
 }
 
 .footer-top-item
@@ -449,4 +495,12 @@ input[type=text], select, textarea {
   height: 100px;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+
+
+.centered
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }

@@ -11,7 +11,7 @@
   .navbar {
     font-size: 18px;
     background-image: linear-gradient(260deg, #507DBC 0%, #90D7FF 100%);
-    border: 1px solid white;
+    border-bottom: 2px solid white;
   }
   
   #main-nav {
@@ -41,15 +41,15 @@
     font-size: 22px;
     margin-top: 5px;
     margin-left: 10px;
-    height: 80px;
+    height: 90px;
   }
   
   #navbar-toggle {
     position: absolute;
-    top: 30px;
+    top: 40px;
     right: 20px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     font-size: 24px;
   }
   
@@ -65,6 +65,8 @@
       padding-bottom: 0;
       height: 100px;
       align-items: center;
+      position: fixed;
+      width: 100%;
     }
   
     #main-nav {
@@ -91,3 +93,71 @@
     }
   
   } 
+
+  /* ---------------------  VIDEO & Welcome Text -----------------*/
+
+/* Style the video: 100% width to cover the entire window */
+#videoDiv
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#myVideo
+{
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+  margin-bottom: 0px;
+}
+
+#overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top:160pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#logoHomepage
+{
+  height: 180px;
+  padding-bottom: 20pt;
+}
+
+#MainTitle
+{
+  font-family: 'Original Surfer', cursive;
+  color: #034C8C;
+  font-size: 18pt;
+  text-align: center;
+  text-shadow: 1px 1px white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#welcomeText
+{
+  font-family: 'Original Surfer', cursive;
+  color: white;
+  text-shadow: 1px 1px #034C8C;
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#HomepageBookLesson-Btn
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+  box-shadow: 3px 5px white;
+}

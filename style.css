@@ -149,15 +149,23 @@
   text-shadow: 1px 1px #034C8C;
   font-size: 16pt;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#HomepageBookLesson-Btn
+#seePackagesBtn
 {
   font-family: 'Lato', sans-serif;
-  font-size: 12pt;
-  box-shadow: 3px 5px white;
+  font-size: 14pt;
+  color: #034C8C;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+#seePackagesBtn:hover
+{
+  background-color: grey;
 }
